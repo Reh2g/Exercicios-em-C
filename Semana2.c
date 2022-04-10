@@ -1,5 +1,7 @@
 /*
 
+● Exercício 1:
+
 Elaborar um programa para exibir 2 números inteiros em ordem crescente.
 
 For example:
@@ -32,70 +34,7 @@ int main(){
 
 /*
 
-Elaborar um programa para exibir 3 números inteiros em ordem crescente.
-
-For example:
-
-Input                   Result
-
-5                       1 3 
-1
-3
-
-*/
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(){
-
-	int numero1, numero2, numero3;
-
-	scanf("%d\\n%d\\n%d", &numero1, &numero2, &numero3);
-	
-	if (numero2 > numero1)
-	{
-	    if (numero3 > numero2)
-	    {
-	        printf("%d %d %d", numero1, numero2, numero3);
-	    }
-	    else if (numero2 > numero3)
-	    {
-	        if (numero3 > numero1)
-	        {
-	            printf("%d %d %d", numero1, numero3, numero2);
-	        }
-	        else
-	        {
-	            printf("%d %d %d", numero3, numero1, numero2);
-	        }
-	    }
-	}
-	else if (numero1 > numero2)
-	{
-	    if (numero3 > numero1)
-	    {
-	        printf("%d %d %d", numero2, numero1, numero3);
-	    }
-	    else if (numero1 > numero3)
-	    {
-	        if (numero3 > numero2)
-	        {
-	            printf("%d %d %d", numero2, numero3, numero1);
-	        }
-	        else
-	        {
-	            printf("%d %d %d", numero3, numero2, numero1);
-	        }
-	    }
-	}
-	else
-	{
-	    printf("%d %d %d", numero3, numero2, numero1);
-	}
-}
-
-/*
+● Exercício 2:
 
 Elaborar um programa para exibir 3 números inteiros em ordem crescente.
 
@@ -161,6 +100,75 @@ int main(){
 }
 
 /*
+
+● Exercício 3:
+
+Elaborar um programa para exibir 3 números inteiros em ordem crescente.
+
+For example:
+
+Input                   Result
+
+5                       1 3 
+1
+3
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+	int numero1, numero2, numero3;
+
+	scanf("%d\\n%d\\n%d", &numero1, &numero2, &numero3);
+	
+	if (numero2 > numero1)
+	{
+	    if (numero3 > numero2)
+	    {
+	        printf("%d %d %d", numero1, numero2, numero3);
+	    }
+	    else if (numero2 > numero3)
+	    {
+	        if (numero3 > numero1)
+	        {
+	            printf("%d %d %d", numero1, numero3, numero2);
+	        }
+	        else
+	        {
+	            printf("%d %d %d", numero3, numero1, numero2);
+	        }
+	    }
+	}
+	else if (numero1 > numero2)
+	{
+	    if (numero3 > numero1)
+	    {
+	        printf("%d %d %d", numero2, numero1, numero3);
+	    }
+	    else if (numero1 > numero3)
+	    {
+	        if (numero3 > numero2)
+	        {
+	            printf("%d %d %d", numero2, numero3, numero1);
+	        }
+	        else
+	        {
+	            printf("%d %d %d", numero3, numero2, numero1);
+	        }
+	    }
+	}
+	else
+	{
+	    printf("%d %d %d", numero3, numero2, numero1);
+	}
+}
+
+/*
+
+● Exercício 4:
 
 Determinar se, dados os comprimentos de 3 varetas, é ou não é possível
 formar um triângulo. (Utilize números inteiros)
@@ -206,6 +214,8 @@ int main(){
 }
 
 /*
+
+● Exercício 5:
 
 Determinar se, dados os comprimentos de quatro varetas, é ou não possível 
 selecionar três varetas, dentre as quatro, e formar um triângulo.
@@ -272,6 +282,8 @@ int main(){
 
 /*
 
+● Exercício 6:
+
 Elaborar um programa para exibir os múltiplos de um número compreendidos entre dois valores dados.
 
 Exemplo de Entrada:               Exemplo de Saída:
@@ -304,6 +316,8 @@ int main() {
 }
 
 /*
+
+● Exercício 7:
 
 Elaborar um programa que gere o n-ésimo termo da sequência de Fibonacci.
 
@@ -352,6 +366,8 @@ int main() {
 
 /*
 
+● Exercício 8:
+
 Elaborar um programa que gere o n-ésimo termo da sequência de Fibonacci.
 
 
@@ -399,6 +415,8 @@ int main() {
 }
 
 /*
+
+● Exercício 9:
 
 Elaborar um programa para exibir máximo divisor comum de 2 números inteiros.
 
