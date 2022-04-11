@@ -1,5 +1,7 @@
 /*
 
+● Exercício 1:
+
 Elaborar um programa para exibir a distância entre dois pontos em R2. 
 Use uma função dist2
 
