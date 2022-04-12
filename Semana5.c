@@ -415,28 +415,28 @@ int main(void)
     for (i = 0; i < linA; i ++)
     {
         for (j = 0; j < colA; j ++)
-		    {
-		        scanf("%lf", A[i] + j);
-			  }
+	{
+	    scanf("%lf", A[i] + j);
+        }
     }
 
     printf("Mensagem cifrada:\n");
     for (i = 0; i < n; i ++)
     {
-				scanf("%d", u + i);
-		}
+        scanf("%d", u + i);
+    }
 
     printf("Mensagem decifrada:\n");
     for (t = 0; t < n/2; t ++)
     {
         for (i = 0; i < linA; i ++)
         {
-		        v[2*t + i] = 0;
-	          for (k = 0; k < colA; k ++)
-						{
-								v[2*t + i] += A[i][k]*u[2*t + k];
-						}
-			      printf("%c",v[2*t + i]);
+	    v[2*t + i] = 0;
+	    for (k = 0; k < colA; k ++)
+	    {
+	        v[2*t + i] += A[i][k]*u[2*t + k];
+	    }
+	    printf("%c",v[2*t + i]);
         }
     }
 
