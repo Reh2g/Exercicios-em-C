@@ -125,6 +125,3 @@ double prodEsc (double *u, double *v, int n)
     
     return soma;
 }
-
-
-● Exercício 3:
