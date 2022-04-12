@@ -351,7 +351,6 @@ Angulo entre os dois vetores: 44.999996 graus.
 
 #define PI 3.14159265359
 
-
 int main(){
     int mInt;
     float a, b, c, d, e, f, g, h, i, j, k, l, m, result;
